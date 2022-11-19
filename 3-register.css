@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+div.error {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ff9797;
+  background: #ffeaea;
+}
+#register {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #e9e9e9;
+  background: #f2f2f2;
+}
+#register h2 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+#register input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#register input[type=text], #register input[type=email], #register input[type=password] {
+  border: 1px solid #d9d9d9;
+}
+#register input[type=submit] {
+  margin-top: 20px;
+  color: #fff;
+  background: #3c65c3;
+  border: 0;
+  cursor: pointer;
+}
